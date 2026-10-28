@@ -1,0 +1,606 @@
+{
+  "name": "Cake Galaxy",
+  "source_reference": "User-approved catalogue in Cake-galaxy/packages/catalog/approvedCakes.js (2026-10-23), Cake-galaxy docs and user-supplied address. Snapshot only; confirm live policy/stock before promising.",
+  "facts": [
+    {
+      "key": "company",
+      "answer": "Cake Galaxy is a cake ordering business serving customers through cakegalaxy.in; the project lists its customer-facing address in Nagarbhavi, Bengaluru.",
+      "questions": [
+        "What is Cake Galaxy?",
+        "Tell me about Cake Galaxy.",
+        "What does Cake Galaxy do?",
+        "Describe this bakery."
+      ]
+    },
+    {
+      "key": "website",
+      "answer": "Cake Galaxy's website is https://cakegalaxy.in. Current online checkout availability must be confirmed on the site.",
+      "questions": [
+        "What is Cake Galaxy website?",
+        "Where can I find your website?",
+        "What is the online ordering link?",
+        "Share your official website."
+      ]
+    },
+    {
+      "key": "address",
+      "answer": "Cake Galaxy's provided address is No. 1, Nagarbhavi Main Road, opposite Bank of Baroda, Mudalapalya, Nagarbhavi, Bengaluru, Karnataka 560072.",
+      "questions": [
+        "Where is Cake Galaxy located?",
+        "What is your store address?",
+        "How do I find your Nagarbhavi bakery?",
+        "Is Cake Galaxy in Bengaluru?"
+      ]
+    },
+    {
+      "key": "product_count",
+      "answer": "The project has an approved reference list of 32 cake products as of 23 October 2026. Live stock and availability are not verified.",
+      "questions": [
+        "How many cakes are approved?",
+        "How many cake varieties are in your approved catalogue?",
+        "How many products are there?",
+        "Does the approved list contain 32 cakes?"
+      ]
+    },
+    {
+      "key": "categories",
+      "answer": "The approved catalogue includes regular, fruit, chocolate, dry-fruit, nut, cheesecake, velvet, and multi-flavour cake categories; specific availability may change.",
+      "questions": [
+        "What cake categories do you have?",
+        "Do you sell different cake flavours?",
+        "What kinds of cakes are listed?",
+        "Tell me your cake categories."
+      ]
+    },
+    {
+      "key": "discount",
+      "answer": "In the approved regular cake pricing logic, a 10% discount is applied only to the cake base price for weights of 1 kg and above, including exactly 1 kg. It excludes eggless surcharges and add-ons.",
+      "questions": [
+        "Do you provide a 1 kg cake discount?",
+        "Is there 10 percent discount on 1 kg cakes?",
+        "How does the kilogram discount work?",
+        "At what weight do I get the discount?"
+      ]
+    },
+    {
+      "key": "half_kg_discount",
+      "answer": "The 10% weight discount does not apply to 0.5 kg cakes.",
+      "questions": [
+        "Is there a discount for half kg cake?",
+        "Do I get 10 percent off on 500 gram cake?",
+        "What is the discount for 0.5 kg?",
+        "Does half kg get a cake discount?"
+      ]
+    },
+    {
+      "key": "eggless",
+      "answer": "Approved regular cake pricing adds ₹50 per 500 g for the eggless option: ₹50 for 0.5 kg, ₹100 for 1 kg. Ingredient claims must be confirmed with the bakery.",
+      "questions": [
+        "Do you have eggless cake?",
+        "What is the eggless charge?",
+        "How much extra for a 1 kg eggless cake?",
+        "How does eggless pricing work?"
+      ]
+    },
+    {
+      "key": "custom_flow",
+      "answer": "For a design cake, choose a flavour tier, flavour and supported weight, upload a design reference image, enter occasion/date and delivery pincode, verify your phone, and submit a request for an admin quote.",
+      "questions": [
+        "How do I order a custom design cake?",
+        "Can I upload a cake reference image?",
+        "How to create my own cake?",
+        "What steps are there for customized cake requests?"
+      ]
+    },
+    {
+      "key": "custom_quote",
+      "answer": "Custom design cake prices are not automatically shown to customers. Bakery staff review the design and provide a final quote separately; submitting a request is not a paid order.",
+      "questions": [
+        "How much will my design cake cost?",
+        "Can I get automatic pricing for a custom cake?",
+        "Who decides custom cake price?",
+        "Is the design cake price quoted by admin?"
+      ]
+    },
+    {
+      "key": "design_min",
+      "answer": "The documented custom design cake flow starts at 1 kg and requires a JPG or PNG reference image up to 10 MB.",
+      "questions": [
+        "What is the minimum weight for a design cake?",
+        "What image format can I upload for custom cake?",
+        "Is half kg design cake supported?",
+        "What is the design photo upload limit?"
+      ]
+    },
+    {
+      "key": "tiers",
+      "answer": "Design cake flavours are grouped into Basic, Standard and Premium tiers. These labels do not display tier prices to the customer.",
+      "questions": [
+        "What are design cake flavour tiers?",
+        "Is there basic standard premium for custom cakes?",
+        "What flavour tiers can I choose?",
+        "Do custom cake tiers show prices?"
+      ]
+    },
+    {
+      "key": "product_weights",
+      "answer": "The approved regular cake pricing supports selectable weights from 0.5 kg to 20 kg in 0.5 kg increments in source code; actual order availability depends on the active catalogue and checkout.",
+      "questions": [
+        "What cake weights can I choose?",
+        "Can I order 500 grams or one kilogram?",
+        "What is the maximum supported cake size?",
+        "Which regular cake sizes are supported?"
+      ]
+    },
+    {
+      "key": "delivery_location",
+      "answer": "The ordering system checks whether the delivery pincode maps to an active service branch. A Bengaluru address alone does not guarantee delivery coverage.",
+      "questions": [
+        "Do you deliver to my area?",
+        "How is delivery availability checked?",
+        "Can you deliver anywhere in Bengaluru?",
+        "How can I check my pincode?"
+      ]
+    },
+    {
+      "key": "delivery_fee",
+      "answer": "Delivery fees depend on the serviceable pincode and current checkout configuration. An exact live delivery charge has not been verified.",
+      "questions": [
+        "What are the delivery charges?",
+        "How much is shipping?",
+        "Is delivery free?",
+        "Tell me the delivery fee."
+      ]
+    },
+    {
+      "key": "delivery_dates",
+      "answer": "The checkout code permits delivery-date selection from today up to 31 days ahead, subject to available future delivery slots, serviceability and live configuration.",
+      "questions": [
+        "Can I schedule a cake delivery for later?",
+        "Can I select tomorrow for delivery?",
+        "How far ahead can I select delivery date?",
+        "Can I pick the delivery slot?"
+      ]
+    },
+    {
+      "key": "order_history",
+      "answer": "The storefront includes a My Orders section for orders associated with a verified customer account.",
+      "questions": [
+        "How do I check my orders?",
+        "Do you have My Orders?",
+        "Where is my order history?",
+        "Can I see past cake orders?"
+      ]
+    },
+    {
+      "key": "checkout_login",
+      "answer": "The code includes OTP-based phone verification before placing an order. Delivery confirmation depends on the configured live OTP provider.",
+      "questions": [
+        "Do I need OTP to order?",
+        "How does phone verification work?",
+        "Do you have WhatsApp OTP login?",
+        "Is mobile OTP required at checkout?"
+      ]
+    },
+    {
+      "key": "payment_online",
+      "answer": "Cake Galaxy's code supports Razorpay online payment, but live merchant activation and checkout readiness are not independently verified.",
+      "questions": [
+        "Can I pay using Razorpay?",
+        "Is online payment available?",
+        "How can I pay online?",
+        "Does Cake Galaxy have online payment integration?"
+      ]
+    },
+    {
+      "key": "cod",
+      "answer": "Cake Galaxy's code has a Cash on Delivery option, but production COD is available only when the business activates and configures it. Verify availability at checkout.",
+      "questions": [
+        "Is cash on delivery available?",
+        "Can I pay cash when cake arrives?",
+        "Do you support COD?",
+        "Is COD enabled on the live store?"
+      ]
+    },
+    {
+      "key": "refund",
+      "answer": "A customer can request cancellation for review. Admin approval or rejection exists in the system; automatic Razorpay refund settlement has not been verified, so do not promise a refund timeline.",
+      "questions": [
+        "Can I cancel my cake order?",
+        "What is the refund process?",
+        "Are refunds automatic?",
+        "What happens after a cancellation request?"
+      ]
+    },
+    {
+      "key": "custom_budget",
+      "answer": "The current custom cake customer form does not show a budget field or automatic estimated price; only the admin supplies the final quotation.",
+      "questions": [
+        "Can I enter my budget for a design cake?",
+        "Does the custom page display estimated prices?",
+        "Is there budget field on the design form?",
+        "When will I see my custom cake quote?"
+      ]
+    },
+    {
+      "key": "contact",
+      "answer": "No verified customer-service phone number or email is provided in the approved training facts. Please use the website's currently published contact information.",
+      "questions": [
+        "What is your phone number?",
+        "Do you have customer service WhatsApp?",
+        "What is your official support email?",
+        "How can I contact Cake Galaxy?"
+      ]
+    },
+    {
+      "key": "hours",
+      "answer": "Store opening hours have not been verified. Please check the store's current published hours before visiting.",
+      "questions": [
+        "What are your opening hours?",
+        "Is Cake Galaxy open on Sundays?",
+        "What time does the bakery close?",
+        "When is your store open?"
+      ]
+    },
+    {
+      "key": "photo_cake",
+      "answer": "Cake Galaxy's project includes photo cake and custom design reference-upload flows. Contact the bakery about available designs and fulfillment.",
+      "questions": [
+        "Can I order photo cake?",
+        "Can I upload my own cake image?",
+        "Do you make picture cakes?",
+        "Are photo cakes supported?"
+      ]
+    },
+    {
+      "key": "addons",
+      "answer": "Final checkout totals can include cake weight, eggless surcharges, applicable add-ons and delivery fees. The approved 10% weight discount excludes add-ons and eggless charges.",
+      "questions": [
+        "Are add-ons included in cake price?",
+        "Will checkout total include extras?",
+        "Does weight discount apply on addons?",
+        "How is the final cake total calculated?"
+      ]
+    },
+    {
+      "key": "custom_payment",
+      "answer": "Submitting a design cake reference does not charge the customer or create an online paid cake order; staff must communicate the final quote separately.",
+      "questions": [
+        "Do I have to pay when submitting custom design?",
+        "Is there an automatic custom cake checkout?",
+        "Does sending design request place paid order?",
+        "Will uploading cake image charge me?"
+      ]
+    },
+    {
+      "key": "stock",
+      "answer": "An approved catalogue price is not proof that a cake is currently available for order. Check the live catalogue and delivery pincode.",
+      "questions": [
+        "Are all 32 cakes available now?",
+        "Are all listed cakes in stock?",
+        "Is this cake currently available?",
+        "Does approved catalogue mean in-stock?"
+      ]
+    },
+    {
+      "key": "cake_menu-almond-alphonso-truffle",
+      "answer": "Almond Alphonso Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Almond Alphonso Cake?",
+        "How much is half kg Almond Alphonso Cake?",
+        "What does 1 kg Almond Alphonso Cake cost after discount?",
+        "Tell me the rate of Almond Alphonso Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-black-current-truffle",
+      "answer": "Black Currant Cake: approved reference base price for 0.5 kg is ₹379. At 1 kg, the cake base after the 10% weight discount is ₹682.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Black Currant Cake?",
+        "How much is half kg Black Currant Cake?",
+        "What does 1 kg Black Currant Cake cost after discount?",
+        "Tell me the rate of Black Currant Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-black-forest",
+      "answer": "Black Forest Cake: approved reference base price for 0.5 kg is ₹399. At 1 kg, the cake base after the 10% weight discount is ₹718.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Black Forest Cake?",
+        "How much is half kg Black Forest Cake?",
+        "What does 1 kg Black Forest Cake cost after discount?",
+        "Tell me the rate of Black Forest Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-blueberry-truffle",
+      "answer": "Blueberry Cake: approved reference base price for 0.5 kg is ₹399. At 1 kg, the cake base after the 10% weight discount is ₹718.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Blueberry Cake?",
+        "How much is half kg Blueberry Cake?",
+        "What does 1 kg Blueberry Cake cost after discount?",
+        "Tell me the rate of Blueberry Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-blueberry-cheese-cake",
+      "answer": "Blueberry Cheesecake: approved reference base price for 0.5 kg is ₹649. At 1 kg, the cake base after the 10% weight discount is ₹1168.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Blueberry Cheesecake?",
+        "How much is half kg Blueberry Cheesecake?",
+        "What does 1 kg Blueberry Cheesecake cost after discount?",
+        "Tell me the rate of Blueberry Cheesecake."
+      ]
+    },
+    {
+      "key": "cake_menu-choco-nuts",
+      "answer": "Choco Nut Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Choco Nut Cake?",
+        "How much is half kg Choco Nut Cake?",
+        "What does 1 kg Choco Nut Cake cost after discount?",
+        "Tell me the rate of Choco Nut Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-chocolate-chip",
+      "answer": "Chocolate Chip Cake: approved reference base price for 0.5 kg is ₹479. At 1 kg, the cake base after the 10% weight discount is ₹862.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Chocolate Chip Cake?",
+        "How much is half kg Chocolate Chip Cake?",
+        "What does 1 kg Chocolate Chip Cake cost after discount?",
+        "Tell me the rate of Chocolate Chip Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-choco-pista",
+      "answer": "Choco Pista Cake: approved reference base price for 0.5 kg is ₹599. At 1 kg, the cake base after the 10% weight discount is ₹1078.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Choco Pista Cake?",
+        "How much is half kg Choco Pista Cake?",
+        "What does 1 kg Choco Pista Cake cost after discount?",
+        "Tell me the rate of Choco Pista Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-choco-almond",
+      "answer": "Choco Almond Cake: approved reference base price for 0.5 kg is ₹549. At 1 kg, the cake base after the 10% weight discount is ₹988.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Choco Almond Cake?",
+        "How much is half kg Choco Almond Cake?",
+        "What does 1 kg Choco Almond Cake cost after discount?",
+        "Tell me the rate of Choco Almond Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-choco-dates",
+      "answer": "Choco Dates Cake: approved reference base price for 0.5 kg is ₹499. At 1 kg, the cake base after the 10% weight discount is ₹898.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Choco Dates Cake?",
+        "How much is half kg Choco Dates Cake?",
+        "What does 1 kg Choco Dates Cake cost after discount?",
+        "Tell me the rate of Choco Dates Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-chocolate-delight-cake",
+      "answer": "Chocolate Delight Cake: approved reference base price for 0.5 kg is ₹549. At 1 kg, the cake base after the 10% weight discount is ₹988.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Chocolate Delight Cake?",
+        "How much is half kg Chocolate Delight Cake?",
+        "What does 1 kg Chocolate Delight Cake cost after discount?",
+        "Tell me the rate of Chocolate Delight Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-chocolate-and-oreo",
+      "answer": "Choco Oreo Cake: approved reference base price for 0.5 kg is ₹499. At 1 kg, the cake base after the 10% weight discount is ₹898.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Choco Oreo Cake?",
+        "How much is half kg Choco Oreo Cake?",
+        "What does 1 kg Choco Oreo Cake cost after discount?",
+        "Tell me the rate of Choco Oreo Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-classic-chocolate-truffle",
+      "answer": "Chocolate Truffle Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Chocolate Truffle Cake?",
+        "How much is half kg Chocolate Truffle Cake?",
+        "What does 1 kg Chocolate Truffle Cake cost after discount?",
+        "Tell me the rate of Chocolate Truffle Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-death-by-chocolate",
+      "answer": "Death by Chocolate Cake: approved reference base price for 0.5 kg is ₹549. At 1 kg, the cake base after the 10% weight discount is ₹988.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Death by Chocolate Cake?",
+        "How much is half kg Death by Chocolate Cake?",
+        "What does 1 kg Death by Chocolate Cake cost after discount?",
+        "Tell me the rate of Death by Chocolate Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-dry-fruit",
+      "answer": "Dry Fruit Cake: approved reference base price for 0.5 kg is ₹599. At 1 kg, the cake base after the 10% weight discount is ₹1078.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Dry Fruit Cake?",
+        "How much is half kg Dry Fruit Cake?",
+        "What does 1 kg Dry Fruit Cake cost after discount?",
+        "Tell me the rate of Dry Fruit Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-ferraro-cake",
+      "answer": "Ferrero Rocher Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Ferrero Rocher Cake?",
+        "How much is half kg Ferrero Rocher Cake?",
+        "What does 1 kg Ferrero Rocher Cake cost after discount?",
+        "Tell me the rate of Ferrero Rocher Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-fruit-almond",
+      "answer": "Fruit Almond Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Fruit Almond Cake?",
+        "How much is half kg Fruit Almond Cake?",
+        "What does 1 kg Fruit Almond Cake cost after discount?",
+        "Tell me the rate of Fruit Almond Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-german-black-forest",
+      "answer": "German Black Forest Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of German Black Forest Cake?",
+        "How much is half kg German Black Forest Cake?",
+        "What does 1 kg German Black Forest Cake cost after discount?",
+        "Tell me the rate of German Black Forest Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-hazelnut",
+      "answer": "Hazelnut Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Hazelnut Cake?",
+        "How much is half kg Hazelnut Cake?",
+        "What does 1 kg Hazelnut Cake cost after discount?",
+        "Tell me the rate of Hazelnut Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-honey-almond-truffle",
+      "answer": "Honey Almond Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Honey Almond Cake?",
+        "How much is half kg Honey Almond Cake?",
+        "What does 1 kg Honey Almond Cake cost after discount?",
+        "Tell me the rate of Honey Almond Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-keshar-badam-truffle",
+      "answer": "Kesar Badam Cake: approved reference base price for 0.5 kg is ₹549. At 1 kg, the cake base after the 10% weight discount is ₹988.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Kesar Badam Cake?",
+        "How much is half kg Kesar Badam Cake?",
+        "What does 1 kg Kesar Badam Cake cost after discount?",
+        "Tell me the rate of Kesar Badam Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-nutella-cake",
+      "answer": "Nutella Cake: approved reference base price for 0.5 kg is ₹599. At 1 kg, the cake base after the 10% weight discount is ₹1078.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Nutella Cake?",
+        "How much is half kg Nutella Cake?",
+        "What does 1 kg Nutella Cake cost after discount?",
+        "Tell me the rate of Nutella Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-oreo-forest",
+      "answer": "Oreo Forest Cake: approved reference base price for 0.5 kg is ₹449. At 1 kg, the cake base after the 10% weight discount is ₹808.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Oreo Forest Cake?",
+        "How much is half kg Oreo Forest Cake?",
+        "What does 1 kg Oreo Forest Cake cost after discount?",
+        "Tell me the rate of Oreo Forest Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-pista-truffle",
+      "answer": "Pista Truffle Cake: approved reference base price for 0.5 kg is ₹549. At 1 kg, the cake base after the 10% weight discount is ₹988.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Pista Truffle Cake?",
+        "How much is half kg Pista Truffle Cake?",
+        "What does 1 kg Pista Truffle Cake cost after discount?",
+        "Tell me the rate of Pista Truffle Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-rainbow-6-wonders",
+      "answer": "Rainbow Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Rainbow Cake?",
+        "How much is half kg Rainbow Cake?",
+        "What does 1 kg Rainbow Cake cost after discount?",
+        "Tell me the rate of Rainbow Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-rasmalai-truffle",
+      "answer": "Rasmalai Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Rasmalai Cake?",
+        "How much is half kg Rasmalai Cake?",
+        "What does 1 kg Rasmalai Cake cost after discount?",
+        "Tell me the rate of Rasmalai Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-red-velvet-cake",
+      "answer": "Red Velvet Cake: approved reference base price for 0.5 kg is ₹599. At 1 kg, the cake base after the 10% weight discount is ₹1078.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Red Velvet Cake?",
+        "How much is half kg Red Velvet Cake?",
+        "What does 1 kg Red Velvet Cake cost after discount?",
+        "Tell me the rate of Red Velvet Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-regular-pineapple",
+      "answer": "Regular Pineapple Cake: approved reference base price for 0.5 kg is ₹379. At 1 kg, the cake base after the 10% weight discount is ₹682.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Regular Pineapple Cake?",
+        "How much is half kg Regular Pineapple Cake?",
+        "What does 1 kg Regular Pineapple Cake cost after discount?",
+        "Tell me the rate of Regular Pineapple Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-regular-strawberry",
+      "answer": "Regular Strawberry Cake: approved reference base price for 0.5 kg is ₹379. At 1 kg, the cake base after the 10% weight discount is ₹682.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Regular Strawberry Cake?",
+        "How much is half kg Regular Strawberry Cake?",
+        "What does 1 kg Regular Strawberry Cake cost after discount?",
+        "Tell me the rate of Regular Strawberry Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-rocky-road",
+      "answer": "Rocky Road Cake: approved reference base price for 0.5 kg is ₹699. At 1 kg, the cake base after the 10% weight discount is ₹1258.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Rocky Road Cake?",
+        "How much is half kg Rocky Road Cake?",
+        "What does 1 kg Rocky Road Cake cost after discount?",
+        "Tell me the rate of Rocky Road Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-triple-queen",
+      "answer": "Triple Queen Cake: approved reference base price for 0.5 kg is ₹599. At 1 kg, the cake base after the 10% weight discount is ₹1078.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of Triple Queen Cake?",
+        "How much is half kg Triple Queen Cake?",
+        "What does 1 kg Triple Queen Cake cost after discount?",
+        "Tell me the rate of Triple Queen Cake."
+      ]
+    },
+    {
+      "key": "cake_menu-white-forest-truffle",
+      "answer": "White Forest Cake: approved reference base price for 0.5 kg is ₹399. At 1 kg, the cake base after the 10% weight discount is ₹718.20, before eggless, add-ons and delivery. Live availability is not verified.",
+      "questions": [
+        "What is the price of White Forest Cake?",
+        "How much is half kg White Forest Cake?",
+        "What does 1 kg White Forest Cake cost after discount?",
+        "Tell me the rate of White Forest Cake."
+      ]
+    }
+  ]
+}
