@@ -1,0 +1,23 @@
+tiny models are built one small step at a time.
+a language model learns to predict the next token in a sequence.
+the next token could be a letter, a space, or a punctuation mark.
+we can learn how attention works by writing a small transformer.
+a transformer processes token embeddings and position embeddings.
+self attention helps each token look at earlier tokens in context.
+a causal mask prevents a token from seeing future tokens.
+the training loop compares predicted tokens with the real tokens.
+a loss function measures how far the predictions are from the target.
+backpropagation updates the weights to make useful predictions.
+when the data is small the model usually memorizes short patterns.
+a bigger dataset gives the model more examples of written language.
+generation uses the current context to sample the next character.
+temperature changes how much randomness we use when sampling.
+short experiments help us understand models without large hardware.
+the tiny llm project is a place to learn, test, and improve.
+learning by building makes complicated ideas easier to understand.
+we train carefully, inspect the loss, and test what the model learned.
+clear code and simple examples make the project easier to maintain.
+this sample text is intentionally small and meant only for practice.
+we should not expect useful conversations from a tiny toy model.
+the model begins with random weights and must learn from examples.
+each experiment teaches us something new about language modeling.
