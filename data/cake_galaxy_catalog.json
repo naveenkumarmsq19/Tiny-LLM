@@ -1,0 +1,168 @@
+{
+  "source": "Cake-galaxy/packages/catalog/approvedCakes.js",
+  "approved_on": "2026-10-23",
+  "currency": "INR",
+  "status_note": "Approved reference prices; not proof of live availability",
+  "products": [
+    {
+      "name": "Almond Alphonso Cake",
+      "halfKg": 449,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Black Currant Cake",
+      "halfKg": 379,
+      "category": "Fruit Flavours"
+    },
+    {
+      "name": "Black Forest Cake",
+      "halfKg": 399,
+      "category": "Regular Flavours"
+    },
+    {
+      "name": "Blueberry Cake",
+      "halfKg": 399,
+      "category": "Fruit Flavours"
+    },
+    {
+      "name": "Blueberry Cheesecake",
+      "halfKg": 649,
+      "category": "Cheese Cakes"
+    },
+    {
+      "name": "Choco Nut Cake",
+      "halfKg": 449,
+      "category": "Nuts Cake"
+    },
+    {
+      "name": "Chocolate Chip Cake",
+      "halfKg": 479,
+      "category": "Chocolate Flavours"
+    },
+    {
+      "name": "Choco Pista Cake",
+      "halfKg": 599,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Choco Almond Cake",
+      "halfKg": 549,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Choco Dates Cake",
+      "halfKg": 499,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Chocolate Delight Cake",
+      "halfKg": 549,
+      "category": "Chocolate Flavours"
+    },
+    {
+      "name": "Choco Oreo Cake",
+      "halfKg": 499,
+      "category": "Dual/Multi Flavours"
+    },
+    {
+      "name": "Chocolate Truffle Cake",
+      "halfKg": 449,
+      "category": "Chocolate Flavours"
+    },
+    {
+      "name": "Death by Chocolate Cake",
+      "halfKg": 549,
+      "category": "Chocolate Flavours"
+    },
+    {
+      "name": "Dry Fruit Cake",
+      "halfKg": 599,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Ferrero Rocher Cake",
+      "halfKg": 699,
+      "category": "Special Chocolate Cakes"
+    },
+    {
+      "name": "Fruit Almond Cake",
+      "halfKg": 699,
+      "category": "Fresh Fruit Flavours"
+    },
+    {
+      "name": "German Black Forest Cake",
+      "halfKg": 449,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Hazelnut Cake",
+      "halfKg": 699,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Honey Almond Cake",
+      "halfKg": 449,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Kesar Badam Cake",
+      "halfKg": 549,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Nutella Cake",
+      "halfKg": 599,
+      "category": "Special Chocolate Cakes"
+    },
+    {
+      "name": "Oreo Forest Cake",
+      "halfKg": 449,
+      "category": "Regular Flavours"
+    },
+    {
+      "name": "Pista Truffle Cake",
+      "halfKg": 549,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Rainbow Cake",
+      "halfKg": 699,
+      "category": "Dual/Multi Flavours"
+    },
+    {
+      "name": "Rasmalai Cake",
+      "halfKg": 699,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Red Velvet Cake",
+      "halfKg": 599,
+      "category": "Velvet Flavours"
+    },
+    {
+      "name": "Regular Pineapple Cake",
+      "halfKg": 379,
+      "category": "Regular Flavours"
+    },
+    {
+      "name": "Regular Strawberry Cake",
+      "halfKg": 379,
+      "category": "Regular Flavours"
+    },
+    {
+      "name": "Rocky Road Cake",
+      "halfKg": 699,
+      "category": "Dry Fruit Flavours"
+    },
+    {
+      "name": "Triple Queen Cake",
+      "halfKg": 599,
+      "category": "Dual/Multi Flavours"
+    },
+    {
+      "name": "White Forest Cake",
+      "halfKg": 399,
+      "category": "Regular Flavours"
+    }
+  ]
+}
