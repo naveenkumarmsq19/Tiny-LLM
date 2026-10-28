@@ -1,5 +1,25 @@
 # Tiny-LLM
 
+## Cake Galaxy company assistant (added October 2026)
+
+The project now includes **60 Cake Galaxy reference facts, 240 Q&A variations and 32 approved reference cake prices**, based on the Cake Galaxy project documentation.
+
+```bash
+# Correct reference cake pricing and cautious company FAQ (does not use trained neural model)
+python chat_cake_galaxy.py --question "How much is 1 kg eggless Almond Alphonso Cake?"
+python chat_cake_galaxy.py
+
+# Own neural model: train from scratch on the Cake Galaxy company corpus
+python train_company.py --company data/cake_galaxy.json --save checkpoints/cake_galaxy.pt --steps 1200 --context-size 320 --embed-dim 48 --layers 2 --heads 4 --batch-size 6 --dropout 0 --lr 0.0008
+python chat_company.py --company data/cake_galaxy.json --checkpoint checkpoints/cake_galaxy.pt --mode neural
+```
+
+**Important:** the scratch model is a learning experiment; an offline 1200-step test achieved 0/60 exact answers on held-out question phrasings. Do not use neural mode as a factual source. The live checkout, stock, delivery and refund policy were not verified. The repo is public; never commit private credentials or customer data.
+
+See [Cake Galaxy training evidence, pricing and limitations](docs/CAKE_GALAXY_TRAINING.md).
+
+---
+
 A small **decoder-only Transformer** written with Python + PyTorch. The neural model starts from **random weights**. No pretrained model, external AI API, fine-tuned checkpoint, or paid service is required.
 
 The repository now supports **company-specific question answering** as an educational experiment, plus the original plain-text language-model training.
