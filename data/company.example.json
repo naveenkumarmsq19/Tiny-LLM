@@ -1,0 +1,50 @@
+{
+  "name": "Example Software Studio (Demo Only)",
+  "facts": [
+    {
+      "key": "location",
+      "answer": "Example Software Studio is based in Bengaluru, India.",
+      "questions": [
+        "Where is Example Software Studio located?",
+        "What is the company location?",
+        "Which city is your office in?"
+      ]
+    },
+    {
+      "key": "services",
+      "answer": "We build websites, mobile apps, and business software.",
+      "questions": [
+        "What services do you provide?",
+        "What does Example Software Studio build?",
+        "Tell me about your services."
+      ]
+    },
+    {
+      "key": "hours",
+      "answer": "Our working hours are Monday to Friday, 9 AM to 6 PM.",
+      "questions": [
+        "What are your working hours?",
+        "When is the office open?",
+        "What time do you work?"
+      ]
+    },
+    {
+      "key": "contact",
+      "answer": "Please use the contact form on our website to reach the team.",
+      "questions": [
+        "How do I contact your team?",
+        "How can I get in touch?",
+        "What is the way to contact you?"
+      ]
+    },
+    {
+      "key": "delivery",
+      "answer": "We discuss each project's delivery timeline after reviewing its requirements.",
+      "questions": [
+        "How long does a project take?",
+        "What is the delivery timeline?",
+        "When will my project be ready?"
+      ]
+    }
+  ]
+}
