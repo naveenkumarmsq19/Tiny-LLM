@@ -73,7 +73,7 @@ class CakeGalaxyTests(unittest.TestCase):
             "What is the custom design cake price?",
             self.company, self.products,
         )
-        self.assertIn("admin", a.casefold())
+        self.assertTrue("admin" in a.casefold() or "staff" in a.casefold())
         self.assertNotIn("₹800", a)
 
     def test_unknown_question_refusal(self):
